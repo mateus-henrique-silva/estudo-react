@@ -2,7 +2,9 @@ import React, { Component } from "react";
 import "./calculator.css";
 import Button from "../components/button.jsx";
 import Display from "../components/display.jsx";
-
+// calculadora criada na intenção de estudar React 
+// setando variaveis que alteram informações visuais do app
+//setting variables that change the app's visual information
 const initialState = {
   displayValue: "0",
   clearDisplay: false,
